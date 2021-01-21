@@ -6,11 +6,14 @@
     text-align: center;
 }
 
+@media (min-width:1024px) {
+    site-footer {}
+}
+
 .site-footer a i {
+    text-align: center;
     font-size: 3rem;
-    padding-right: 1rem;
     color: white;
-    margin-right: 2rem;
     padding-top: 1rem;
 }
 

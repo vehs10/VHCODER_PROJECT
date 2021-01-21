@@ -124,10 +124,9 @@ a:focus {
   text-align: center; }
 
 .site-footer a i {
+  text-align: center;
   font-size: 3rem;
-  padding-right: 1rem;
   color: white;
-  margin-right: 2rem;
   padding-top: 1rem; }
 
 .site-footer a i:hover {
@@ -188,6 +187,10 @@ a:focus {
     align-items: center;
     margin-top: 3rem;
     justify-content: space-around; } }
+
+@media (min-width: 768px) {
+  .publicidad h2 {
+    padding-top: 6rem; } }
 
 .publicidad a {
   padding-bottom: 2rem; }
