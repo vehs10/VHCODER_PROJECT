@@ -64,11 +64,9 @@ p {
 
 /** navegacion **/
 a {
-  font-size: 1.3rem;
   text-transform: uppercase; }
 
 ul li a {
-  font-size: 2rem;
   text-transform: uppercase; }
 
 @media (min-width: 1024px) {
