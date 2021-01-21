@@ -1,0 +1,21 @@
+/** footer **/
+
+.site-footer {
+    background-color: rgb(49, 48, 48);
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-footer a i {
+    font-size: 3rem;
+    padding-right: 1rem;
+    color: white;
+    margin-right: 2rem;
+    padding-top: 1rem;
+}
+
+.site-footer a i:hover {
+    transform: scale(1.5);
+    transition: .4s ease-in-out;
+    color: #4776E6;
+}

@@ -1,0 +1,37 @@
+/** Integrantes**/
+
+.integrantes ul li {
+    font-size: 1.8rem;
+}
+
+@media (min-width:1024px) {
+    .integrantes {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin: 3rem 0rem;
+    }
+}
+
+.integrantes h4 {
+    text-transform: uppercase;
+}
+
+.integrantes img {
+    border-radius: 5rem;
+}
+
+.img_integrantes {
+    flex-basis: 40%;
+    margin: auto;
+    margin-bottom: 2.1rem;
+    align-items: center;
+}
+
+.text_integrantes {
+    flex-basis: 50%;
+}
+
+.text_integrantes h4 {
+    font-weight: 700;
+}

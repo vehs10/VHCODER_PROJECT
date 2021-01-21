@@ -1,0 +1,32 @@
+/** navegacion **/
+
+a {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+ul li a {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+@media (min-width:1024px) {
+    ul li a {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}
+
+.navbar a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.navbar a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
