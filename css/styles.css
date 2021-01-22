@@ -358,17 +358,7 @@
     
     @media (min-width:1024px) {
         .testimoniales {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: 2rem;
+            display: flex;
+            justify-content: space-around
         }
-    }
-    
-    .testimoniales_content img {
-        border-radius: 2rem;
-        width: 85%;
-    }
-    
-    .testimoniales_content {
-        text-align: center;
     }

@@ -230,6 +230,13 @@ a:focus {
   .contenido img {
     width: 50%; } }
 
+.contenido1 a i {
+  margin: 3rem 0rem;
+  font-size: 14rem; }
+
+.contenido1 h3 {
+  font-weight: 700; }
+
 /** nosotros.html**/
 .nosotros {
   padding: 2rem;
@@ -307,23 +314,64 @@ a:focus {
 .text_integrantes h4 {
   font-weight: 700; }
 
-/** testimoniales**/
 @media (min-width: 1024px) {
   .testimoniales {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-    margin-bottom: 2rem; } }
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem; } }
 
-.testimoniales span {
-  font-size: 1.5rem;
-  font-weight: 700;
-  font-style: oblique;
-  color: aqua; }
+.img-testimoniales {
+  position: relative;
+  overflow: hidden; }
 
-.testimoniales_content img {
-  border-radius: 2rem;
-  width: 85%; }
+.img-testimoniales img {
+  max-width: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .5s ease-in-out; }
 
-.testimoniales_content {
-  text-align: center; }
+.img-testimoniales img:hover {
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.1); }
+
+.img-testimoniales p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 10px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  color: #6f00ff;
+  text-transform: uppercase;
+  -webkit-transition: all .5s ease-in-out;
+  font-weight: 700; }
+
+.img-testimoniales:hover p {
+  bottom: -80px;
+  opacity: 0; }
+
+.img-testimoniales {
+  flex-basis: 35%;
+  margin-bottom: 2rem; }
+
+.text-testimoniales {
+  flex-basis: 65%; }
+
+@media (min-width: 1024px) {
+  .text-testimoniales {
+    text-align: left;
+    margin-left: 2rem; } }
+
+.text-testimoniales h4,
+p {
+  margin-bottom: 3rem; }
+
+.text-testimoniales p i,
+span {
+  color: #6f00ff;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem; }
