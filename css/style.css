@@ -349,6 +349,10 @@ a:focus {
   -webkit-transition: all .5s ease-in-out;
   font-weight: 700; }
 
+@media (min-width: 768px) {
+  .img-testimoniales img {
+    width: 100%; } }
+
 .img-testimoniales:hover p {
   bottom: -80px;
   opacity: 0; }
