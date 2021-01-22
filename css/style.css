@@ -370,7 +370,7 @@ p {
   margin-bottom: 3rem; }
 
 .text-testimoniales p i,
-span {
+blockquote {
   color: #6f00ff;
   margin-right: 1rem;
   margin-left: 1rem;
