@@ -5,6 +5,10 @@
        margin-top: 2rem;
    }
    
+   .carousel-inner img {
+       height: 60%;
+   }
+   
    @media (min-width: 1024px) {
        .carousel-inner img {
            width: 80%;

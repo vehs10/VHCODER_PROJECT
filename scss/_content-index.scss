@@ -6,7 +6,7 @@
 }
 
 .intro {
-    width: 90%;
+    width: 100%;
     margin-top: 2rem;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .intro p {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .intro h2 {
@@ -117,6 +117,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 3rem;
+        margin-top: 1rem;
     }
     .contenido img {
         width: 50%;
@@ -130,4 +131,8 @@
 
 .contenido1 h3 {
     font-weight: 700;
+}
+
+.contenido1:last-of-type {
+    margin-top: 1.2rem;
 }
