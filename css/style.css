@@ -126,12 +126,17 @@ a:focus {
   text-align: center;
   font-size: 3rem;
   color: white;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  margin-right: 2rem; }
 
 .site-footer a i:hover {
   transform: scale(1.5);
   transition: .4s ease-in-out;
   color: #4776E6; }
+
+.site-footer p {
+  margin-top: 2rem;
+  margin-bottom: -0.5rem; }
 
 .back a i {
   padding-bottom: 2rem; }
