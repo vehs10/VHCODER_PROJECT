@@ -310,14 +310,15 @@ a:focus {
 .integrantes h4 {
   text-transform: uppercase; }
 
-.integrantes img {
-  border-radius: 5rem; }
-
 .img_integrantes {
   flex-basis: 40%;
   margin: auto;
   margin-bottom: 2.1rem;
   align-items: center; }
+
+@media (min-width: 768px) {
+  .img_integrantes img {
+    width: 100%; } }
 
 .text_integrantes {
   flex-basis: 50%; }
@@ -325,27 +326,34 @@ a:focus {
 .text_integrantes h4 {
   font-weight: 700; }
 
+.text_integrantes ul li {
+  list-style-type: none; }
+
 @media (min-width: 1024px) {
   .testimoniales {
     display: flex;
     justify-content: space-around;
     margin-top: 4rem; } }
 
-.img-testimoniales {
+.img-testimoniales,
+.img_integrantes {
   position: relative;
   overflow: hidden; }
 
-.img-testimoniales img {
+.img-testimoniales img,
+.img_integrantes img {
   max-width: 100%;
   filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all .5s ease-in-out; }
 
-.img-testimoniales img:hover {
+.img-testimoniales img:hover,
+.img_integrantes img:hover {
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.1); }
 
-.img-testimoniales p {
+.img-testimoniales p,
+.img_integrantes p {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -364,7 +372,8 @@ a:focus {
   .img-testimoniales img {
     width: 100%; } }
 
-.img-testimoniales:hover p {
+.img-testimoniales:hover p,
+.img_integrantes:hover p {
   bottom: -80px;
   opacity: 0; }
 
@@ -385,7 +394,8 @@ p {
   margin-bottom: 3rem; }
 
 .text-testimoniales p i,
-blockquote {
+blockquote,
+.text_integrantes ul li i {
   color: #6f00ff;
   margin-right: 1rem;
   margin-left: 1rem;

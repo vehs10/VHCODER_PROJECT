@@ -343,15 +343,12 @@
         text-transform: uppercase;
     }
     
-    .integrantes img {
-        border-radius: 5rem;
-    }
-    
     .img_integrantes {
         flex-basis: 40%;
     }
     
     .text_integrantes {
+        margin-top: 1.5rem;
         flex-basis: 50%;
     }
     /** testimoniales**/

@@ -17,15 +17,17 @@
     text-transform: uppercase;
 }
 
-.integrantes img {
-    border-radius: 5rem;
-}
-
 .img_integrantes {
     flex-basis: 40%;
     margin: auto;
     margin-bottom: 2.1rem;
     align-items: center;
+}
+
+@media (min-width:768px) {
+    .img_integrantes img {
+        width: 100%;
+    }
 }
 
 .text_integrantes {
@@ -34,4 +36,8 @@
 
 .text_integrantes h4 {
     font-weight: 700;
+}
+
+.text_integrantes ul li {
+    list-style-type: none;
 }
