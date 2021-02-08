@@ -26,6 +26,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-image: linear-gradient(112.1deg, #202639 11.4%, #3f4c77 70.2%); }
 
+h1 {
+  margin: 0px; }
+
 h2,
 h3 {
   font-size: 3rem;
@@ -62,6 +65,9 @@ p {
   color: #fff;
   text-decoration: none; }
 
+.mt-5 {
+  margin-top: 5.8rem; }
+
 /** navegacion **/
 a {
   text-transform: uppercase; }
@@ -87,6 +93,31 @@ a:focus {
   background-size: 100% 2px; }
 
 /** Header**/
+.header-pages {
+  height: 13vh; }
+
+@media (min-width: 768px) {
+  .header-pages {
+    padding-bottom: none; } }
+
+@media (min-width: 1024px) {
+  .header-pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem; }
+  .pages-nav {
+    padding-top: 1.3rem; }
+  .pages-tittle h1 {
+    margin-left: 5rem;
+    padding-bottom: 1rem; } }
+
+.pages-tittle h1 {
+  color: black;
+  font-family: 'Nerko One', cursive;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700; }
+
 .site-header {
   background-image: url(../img/fondo2.jpg);
   background-position: center center;
@@ -118,9 +149,13 @@ a:focus {
 
 /** footer **/
 .site-footer {
-  background-color: #313030;
   padding: 1rem;
-  text-align: center; }
+  text-align: center;
+  color: white;
+  background-color: #313030; }
+
+.site-footerh4 {
+  font-weight: bold; }
 
 .site-footer a i {
   text-align: center;
@@ -302,6 +337,9 @@ a:focus {
   padding: 2rem; }
 
 /** Integrantes**/
+.integrantes {
+  margin-top: 6rem; }
+
 .integrantes ul li {
   font-size: 1.8rem; }
 
@@ -335,6 +373,9 @@ a:focus {
   list-style-type: none; }
 
 /** TESTIMONIALES.HTML **/
+.testimoniales {
+  margin-top: 5rem; }
+
 @media (min-width: 1024px) {
   .testimoniales {
     display: flex;

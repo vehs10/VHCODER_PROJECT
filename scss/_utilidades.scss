@@ -35,6 +35,10 @@
       background-image: linear-gradient( 112.1deg, rgba(32, 38, 57, 1) 11.4%, rgba(63, 76, 119, 1) 70.2%);
   }
   
+  h1 {
+      margin: 0px;
+  }
+  
   h2,
   h3 {
       font-size: 3rem;
@@ -75,4 +79,8 @@
       /* change the direction of the change here */
       color: #fff;
       text-decoration: none;
+  }
+  
+  .mt-5 {
+      margin-top: 5.8rem;
   }

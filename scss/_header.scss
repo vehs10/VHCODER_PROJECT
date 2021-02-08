@@ -1,5 +1,38 @@
      /** Header**/
      
+     .header-pages {
+         height: 13vh;
+     }
+     
+     @media (min-width:768px) {
+         .header-pages {
+             padding-bottom: none;
+         }
+     }
+     
+     @media (min-width:1024px) {
+         .header-pages {
+             display: flex;
+             justify-content: space-between;
+             padding: 2rem;
+         }
+         .pages-nav {
+             padding-top: 1.3rem;
+         }
+         .pages-tittle h1 {
+             margin-left: 5rem;
+             padding-bottom: 1rem;
+         }
+     }
+     
+     .pages-tittle h1 {
+         color: black;
+         font-family: 'Nerko One', cursive;
+         font-size: 5rem;
+         text-align: center;
+         font-weight: 700;
+     }
+     
      .site-header {
          background-image: url(../img/fondo2.jpg);
          background-position: center center;

@@ -1,9 +1,14 @@
 /** footer **/
 
 .site-footer {
-    background-color: rgb(49, 48, 48);
     padding: 1rem;
     text-align: center;
+    color: white;
+    background-color: rgb(49, 48, 48);
+}
+
+.site-footerh4 {
+    font-weight: bold;
 }
 
 .site-footer a i {
